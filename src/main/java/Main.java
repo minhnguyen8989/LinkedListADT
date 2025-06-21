@@ -32,6 +32,7 @@ public class Main {
         System.out.println();
 
         linkedList.delete(1);
+        linkedList.delete(2);
 
         System.out.print("After deletion: ");
         iterator = linkedList.iterator();
