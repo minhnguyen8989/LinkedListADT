@@ -13,7 +13,10 @@ public class Main {
         linkedList.insert(2);
         linkedList.insert(4);
         linkedList.insert(5);
-        linkedList.insert(1);
+        linkedList.insert(8);
+        linkedList.insert(9);
+        linkedList.insert(12);
+        linkedList.insert(15);
 
         try (Scanner scanner = new Scanner(new File("input.txt"))) {
             while (scanner.hasNextInt()) {
